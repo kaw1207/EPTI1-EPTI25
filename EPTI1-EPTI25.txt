@@ -1,5 +1,5 @@
-EPTI实例中工序数据
-以EPTI1为例说明数据信息：每个大括号内包含一个算例的所有信息，每个方括号内包含一个工件的所有信息，EPTI1中包含8个方括号，表示该算例共有8个工件。以第四个方括号中[2 1 1 7 3 1 7 3 20 2 14]为例，其中第一个数字2表示该工件共有2道工序，第二个数字1表示该工件的第一道工序有一个可选机器，第三个数字1表示可选机器为机器1，第四个数字表示可选机器1对应的检测时间。以此类推，第五个数字3表示下一道工序共有三个可选机器，分别是机器1对应检测时间7，机器3对应检测时间20，机器2对应检测时间14。
+Take the process data in the EPTI example as an illustration. 
+Take EPTI1 to explain the data information: each curly bracket contains all the information of one case, and each square bracket contains all the information of one workpiece. EPTI1 includes 8 square brackets, indicating that this case has a total of 8 workpieces. Take the fourth square bracket [2 1 1 7 3 1 7 3 20 2 14] as an example. The first number 2 indicates that this workpiece has 2 processes. The second number 1 indicates that the first process of this workpiece has one optional machine. The third number 1 indicates that the optional machine is machine 1. The fourth number represents the detection time corresponding to optional machine 1. By analogy, the fifth number 3 indicates
 
 
 EPTI1
